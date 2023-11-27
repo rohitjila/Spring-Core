@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-<!--    <import resource="classpath:META-INF/config_beans.xml" />-->
+<!--    <import resource="classpath:META-INF/ref_beans.xml" />-->
 
     <!-- Define a bean and configure its properties using the <p:...> namespace -->
     <bean class="com.springcore.Student" id="student1" p:studentId="22344" p:studentName="Rohit" p:studentAddress="Patna">
